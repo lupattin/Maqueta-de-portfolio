@@ -1,0 +1,135 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.welcome{
+    background: url("./images/background.webp");
+    height: 85vh;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(7, 5, 180);
+}
+.welcome__content-titles{
+   color: rgb(255, 61, 13);
+}
+.welcome__title{
+    font-family: "Orbitron";
+    font-size: 48px;
+    margin: 11px;
+}
+.welcome__subtitle{
+    font-family: "Orbitron";
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+
+.presentation{
+    height: 70vh;
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    align-items: center;
+}
+@media (min-width:769px){
+    .presentation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.presentation__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width:769px){
+    .presentation__container{
+        width: 70vh;
+        height: 30vh;
+        
+    }
+}
+.presentation__img{
+    display: none;
+}
+@media (min-width:769px){
+    .presentation__img{
+        display: inherit;
+        width: 200px;
+        height: 200px;
+    }
+}
+.presentation__title{
+    color: rgb(255, 61, 13);
+    text-shadow: 5px 5px 5px rgb(7, 5, 180);
+    font-family: "Orbitron";
+    font-size: 24px;
+    margin-bottom: 50px;
+} 
+@media (min-width:769px){
+    .presentation__title{
+        margin: 0;
+    }
+}
+.presentation__description{
+    color: rgb(255, 61, 13);
+    text-shadow: 5px 5px 5px rgb(7, 5, 180);
+    font-family: "Orbitron";
+    max-width: 80%;
+    text-align: center;
+}
+@media (min-width:769px){
+    .presentation__description{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+.services__title{
+    font-family: "Orbitron";
+    font-size: 32px;
+    text-align: center;
+    color: rgb(255, 61, 13);
+    text-shadow: 3px 3px 3px rgb(7, 5, 180);
+}
+.services__container .services__container-template{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width:769px){
+    .services__container{
+       display: flex;
+       padding: 20px;
+    }
+}
+.services__img{
+    height: 150px;
+    width: 180px;
+}
+.services__subtitle{
+    font-family: "Orbitron";
+    width: 30px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    width: auto;
+}
+.services__description{
+    font-family: "Orbitron";
+    text-align: center;
+    max-width: 70%;
+}
+
+
+
+
+     

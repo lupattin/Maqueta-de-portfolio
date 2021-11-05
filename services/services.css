@@ -1,0 +1,55 @@
+.welcome{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    background-color: rgb(24, 23, 23);
+    padding: 80px 20px;
+}
+@media (min-width:769px){
+    .welcome{
+        padding: 150px 0;
+    }
+}
+
+.services__title{
+    font-family: "Orbitron";
+    font-size: 32px;
+    text-align: center;
+    color: rgb(255, 61, 13);
+    text-shadow: 3px 3px 3px rgb(7, 5, 180);
+}
+.services__container .services__container-template{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width:769px){
+    .services__container{
+       display: flex;
+       padding: 20px;
+    }
+}
+.services__img{
+    height: 150px;
+    width: 180px;
+}
+.services__subtitle{
+    font-family: "Orbitron";
+    width: 30px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    width: auto;
+    color: rgb(255, 61, 13);
+    text-shadow: 3px 3px 3px rgb(7, 5, 180);
+}
+.services__description{
+    font-family: "Orbitron";
+    text-align: center;
+    max-width: 70%;
+    color: rgb(255, 61, 13);
+    text-shadow: 3px 3px 3px rgb(7, 5, 180);
+}

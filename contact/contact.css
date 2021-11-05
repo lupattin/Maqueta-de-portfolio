@@ -1,0 +1,74 @@
+.contact{
+    
+}
+.contact__form{
+    background-color: black;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 0;
+    
+}  
+@media (min-width:769px){
+    .contact__form{
+        flex-direction: row;
+        
+    }
+}
+.contact__form-title{
+    color: rgb(255, 61, 13);
+    text-shadow: 3px 3px 3px rgb(7, 5, 180);
+    text-align: center;
+    margin-top: 70px;
+    font-size: 32px;
+    font-family: "Orbitron";
+}
+@media (min-width:769px){
+    .contact__form-title{
+        text-align: start;
+        margin: 0 150px;
+        height: 70%;
+        margin-left: 250px;
+    }
+}
+.contact__container-main{
+    width: 90%;
+    margin: 0;
+}
+@media (min-width:769px){
+    .contact__container-main{
+        width: 30%;
+    }
+}
+.contact__input-container{
+    flex-direction: column;
+    display: flex;
+    
+}
+.contact__label{
+    color: rgb(255, 61, 13);
+    text-shadow: 3px 3px 3px rgb(7, 5, 180);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Orbitron";
+}
+.contact_input{
+    margin-bottom: 20px;
+    height: 45px;
+    border: solid rgb(7, 5, 180);
+}
+.message{
+    height: 100px;
+}
+.contact__button{
+    width: 100%;
+    color: rgb(34, 12, 226);
+    font-size: 20px;
+    font-weight: 700;
+    background-color: gray;
+    height: 45px;
+    font-family: "Orbitron";
+    margin-top: 20px;
+}
